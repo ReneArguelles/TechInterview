@@ -13,6 +13,7 @@
 		C3A89C111F7EB0F200D4F48A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3A89C101F7EB0F200D4F48A /* Assets.xcassets */; };
 		C3A89C141F7EB0F200D4F48A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A89C121F7EB0F200D4F48A /* LaunchScreen.storyboard */; };
 		C3A89C1F1F7EB0F200D4F48A /* SwiftTechInterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A89C1E1F7EB0F200D4F48A /* SwiftTechInterviewTests.swift */; };
+		C3A89C2C1F7EB1B200D4F48A /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A89C2B1F7EB1B200D4F48A /* Tree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C3A89C1A1F7EB0F200D4F48A /* SwiftTechInterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTechInterviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A89C1E1F7EB0F200D4F48A /* SwiftTechInterviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTechInterviewTests.swift; sourceTree = "<group>"; };
 		C3A89C201F7EB0F200D4F48A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3A89C2B1F7EB1B200D4F48A /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		C3A89C081F7EB0F200D4F48A /* SwiftTechInterview */ = {
 			isa = PBXGroup;
 			children = (
+				C3A89C291F7EB17C00D4F48A /* Data Structures */,
 				C3A89C091F7EB0F200D4F48A /* AppDelegate.swift */,
 				C3A89C0B1F7EB0F200D4F48A /* ViewController.swift */,
 				C3A89C0D1F7EB0F200D4F48A /* Main.storyboard */,
@@ -94,6 +97,22 @@
 				C3A89C201F7EB0F200D4F48A /* Info.plist */,
 			);
 			path = SwiftTechInterviewTests;
+			sourceTree = "<group>";
+		};
+		C3A89C291F7EB17C00D4F48A /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				C3A89C2A1F7EB19600D4F48A /* Tree */,
+			);
+			name = "Data Structures";
+			sourceTree = "<group>";
+		};
+		C3A89C2A1F7EB19600D4F48A /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				C3A89C2B1F7EB1B200D4F48A /* Tree.swift */,
+			);
+			name = Tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3A89C2C1F7EB1B200D4F48A /* Tree.swift in Sources */,
 				C3A89C0C1F7EB0F200D4F48A /* ViewController.swift in Sources */,
 				C3A89C0A1F7EB0F200D4F48A /* AppDelegate.swift in Sources */,
 			);
