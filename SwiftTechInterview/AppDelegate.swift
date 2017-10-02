@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SwiftTechInterview
 //
-//  Created by Luxoft on 9/29/17.
+//  Created by René Argüelles on 9/29/17.
 //  Copyright © 2017 Rene Argüelles. All rights reserved.
 //
 

@@ -2,16 +2,28 @@
 //  Tree.swift
 //  SwiftTechInterview
 //
-//  Created by Luxoft on 9/29/17.
+//  Created by René Argüelles on 9/29/17.
 //  Copyright © 2017 Rene Argüelles. All rights reserved.
 //
 
 import Foundation
 
-class Tree {
+class TreeNode {
     
-    func getTrue() -> Bool {
-        return true
+    var value: String
+    var children: [TreeNode] = []
+    weak var parent: TreeNode?
+    
+    init(value: String) {
+        self.value = value
     }
     
+    func add(child: TreeNode) {
+        child.parent = self
+        children.append(child)
+    }
+    
+}
+
+class Tree {
 }
